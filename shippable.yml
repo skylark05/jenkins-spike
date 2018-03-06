@@ -1,3 +1,7 @@
 jobs:
   - name: jenkins_foo
-    type: jenkinsJob
+    type: runSh
+    steps:
+      - TASK:
+          script:
+            - echo "Hello, World!"
