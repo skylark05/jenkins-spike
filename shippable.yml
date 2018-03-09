@@ -5,3 +5,5 @@ jobs:
       - TASK:
           script:
             - echo "Hello, World!"
+  - name: jenkins_ci
+    type: externalCI
